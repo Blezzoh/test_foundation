@@ -1,5 +1,8 @@
 import { Sidebar, Menu, Icon, } from "semantic-ui-react"
 
+/**
+ * https://react.semantic-ui.com/modules/sidebar/
+ */
 const VerticalSidebar = ({
     animation = "uncover",
     direction = "vertical",

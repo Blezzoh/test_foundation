@@ -1,8 +1,13 @@
 import "./App.css";
 import { Grid} from "semantic-ui-react";
 import VerticalSidebar  from "./views/verticalSidebar";
+import TransactionsTable from "./views/transactionsTable";
 
 
+/**
+ * 
+ * 
+ */
 function App() {
   return (
     <div className="App">
@@ -17,7 +22,7 @@ function App() {
             <VerticalSidebar />
           </Grid.Column>
           <Grid.Column width={13}>
-            Rest goes here
+            <TransactionsTable />
           </Grid.Column>
         </Grid.Row>
       </Grid>
